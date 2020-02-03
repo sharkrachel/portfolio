@@ -58,3 +58,48 @@ div.slide-up p {
     margin-left: 100px;
 }
 
+.contact-me {
+    font-size: 18px;
+    background-color: #fce4ec;
+    color: white;
+    border: 1px solid black;
+    position: fixed;
+    margin-top: 95px;
+    margin-left: -255px;
+    padding: 10px;
+}
+
+.about-me {
+    font-size: 18px;
+    background-color: #fce4ec;
+    color: white;
+    border: 1px solid black;
+    position: fixed;
+    margin-top: 95px;
+    margin-left: -115px;
+    padding: 10px;
+}
+
+.contact-me:hover {
+    background-color: black;
+    color: #fce4ec;
+    border: 1px solid #fce4ec
+}
+
+.about-me:hover {
+    background-color: black;
+    color: #fce4ec;
+    border: 1px solid #fce4ec
+}
+
+.contact-me:active {
+    background-color: black;
+    color: #fce4ec;
+    border: 1px solid #fce4ec
+}
+
+.about-me:active {
+    background-color: black;
+    color: #fce4ec;
+    border: 1px solid #fce4ec
+}
