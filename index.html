@@ -15,61 +15,104 @@
     <!-- Materialize icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- Fullpage.js -->
+    <link rel="stylesheet" type="text/css" href="assets/fullpage/fullpage.css" />
+
     <!-- Custom stylesheet  -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="home">
-    <header class="header">
-        <ul id="slide-out" class="sidenav">
-            <li>
-            <li>
-                <a href="#!" class="sidenav-close">X</a>
-            </li>
-            <div class="user-view">
-                <a class="white-text name">Navigation</a>
+        <!-- <ul id="menu">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+            <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+        </ul>  -->
+        <!-- <header class="header">
+            <ul id="slide-out" class="sidenav">
                 <li>
-                    <div class="divider"></div>
+                <li>
+                    <a href="#!" class="sidenav-close">X</a>
                 </li>
-                <!-- <div class="background">
+                <div class="user-view">
+                    <a class="white-text name">Navigation</a>
+                    <li>
+                        <div class="divider"></div>
+                    </li> -->
+        <!-- <div class="background">
                         <img src="images/office.jpg">
                     </div> -->
-                <!-- <a href="#user"><img class="circle" src="images/yuna.jpg"></a> -->
-                <!-- <a href="#name"><span class="white-text name">Rachel Sipes</span></a>
+        <!-- <a href="#user"><img class="circle" src="images/yuna.jpg"></a> -->
+        <!-- <a href="#name"><span class="white-text name">Rachel Sipes</span></a>
                     <a href="#email"><span class="white-text email">rasipes@gmail.com</span></a> -->
+        <!-- </div>
+                </li>
+                <li><a class="waves-effect" href="#!">Home</a></li>
+                <li><a class="waves-effect" href="#!">About</a></li>
+                <li><a class="waves-effect" href="#!">Works</a></li>
+                <li><a class="waves-effect" href="#!">Contact</a></li>
+            </ul>
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger right"><i
+                    class="medium icon-grey material-icons">dehaze</i></a>
+        </header> -->
+        <div id="fullpage">
+            <div class="section" id="section0">
+                <div data-anchor="slide0">
+                    <div class="slide-up">
+                        <p id="short-bio">
+                            I am Rachel Sipes.<br>
+                            A web developer <br>
+                            based in Philadelphia, <br>
+                            Pennsylvania.</pid="short-bio">
+
+
+
+                            <button class="contact-me">CONTACT ME</button>
+                           <a data-menuanchor="secondPage" href="#secondPage"><button class="about-me">MORE ABOUT ME</button></a>
+                        
+                    </div>
+
+                </div>
             </div>
-            </li>
-            <li><a class="waves-effect" href="#!">Home</a></li>
-            <li><a class="waves-effect" href="#!">About</a></li>
-            <li><a class="waves-effect" href="#!">Works</a></li>
-            <li><a class="waves-effect" href="#!">Contact</a></li>
-        </ul>
 
-        <a href="#" data-target="slide-out" class="sidenav-trigger right"><i
-                class="medium icon-grey material-icons">dehaze</i></a>
-    </header>
+            <div class="section" id="section1">
+                <h2 class="hello">HELLO THERE</h2>
+                <h1 class="name">I am Rachel</h1>
+                <p class="long-bio">Originally from Arizona, my career and drive for adventure has led me to live al
+                    over the world, including England, Hawaii, Florida and Chicago. Currently, I'm going back to
+                    school
+                    for full stack web developement through the University of Arizona. I'm happily living in the
+                    city of
+                    brotherly love (go birds!) with my dog Windermere. On an average day, you can find me at a
+                    brewery,
+                    searching on my Macbook for a missing closing curly bracket.</p>
 
-    <div class="content">
-        <div class="slide-up" >
-            <p id="short-bio">
-                I am Rachel Sipes.<br>
-                A web developer <br>
-                based in Philadelphia, <br>
-                Pennsylvania.</pid="short-bio">
+            </div>
 
-                <button class="contact-me">CONTACT ME</button>
-                <button class="about-me">MORE ABOUT ME</button>
         </div>
-
     </div>
-</div>
     <!-- JQuery and Materialize script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- fullpage.js script -->
+    <script src="assets/fullpage/fullpage.js"></script>
+
     <!-- Custom script  -->
     <script src="assets/script/logic.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['white', 'pink'],
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            navigation: true,
+            navigationTooltips: ['Home', 'About', 'Portfolio', 'Contact'],
+            showActiveTooltip: true,
+            menu: '#menu'
+        });
+    </script>
 </body>
 
 </html>

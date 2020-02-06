@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 /*--------------
 NAV BAR
@@ -6,8 +8,10 @@ NAV BAR
 
 i.icon-grey {
     color: black;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-right: 60px;
+    margin-top: 100px;
+    position: fixed;
+    z-index: 1000;
     
 }
 
@@ -31,6 +35,8 @@ i.icon-grey {
 FRONT PAGE TEXT
 --------------*/
 
+
+
 div.slide-up {
   height:200px;
   overflow:hidden;
@@ -48,16 +54,16 @@ div.slide-up p {
   }
 
   to {
-    margin-top: 180px;
+    margin-top: 0px;
     height: 100%;
   }
 }
 
 #short-bio{
     position: absolute;
-    font-size: 52px;
+    font-size: 5vw;
     color: black;
-    margin-top: 180px;
+    margin-top: 0px;
     margin-left: 100px;
 }
 
@@ -66,7 +72,7 @@ FRONT PAGE BUTTONS
 ------------------*/
 
 .contact-me {
-    font-size: 18px;
+    font-size: 1.5vw;
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -77,7 +83,7 @@ FRONT PAGE BUTTONS
 }
 
 .about-me {
-    font-size: 18px;
+    font-size: 1.5vw;
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -110,3 +116,8 @@ FRONT PAGE BUTTONS
     color: black;
     border: 1px solid black;
 }
+
+/*-----------------
+   ABOUT ME
+------------------*/
+
