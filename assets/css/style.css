@@ -61,7 +61,7 @@ div.slide-up p {
 
 #short-bio{
     position: absolute;
-    font-size: 5vw;
+    font-size: 52px;
     color: black;
     margin-top: 0px;
     margin-left: 100px;
@@ -72,7 +72,7 @@ FRONT PAGE BUTTONS
 ------------------*/
 
 .contact-me {
-    font-size: 1.5vw;
+    font-size: 18px;
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -83,7 +83,7 @@ FRONT PAGE BUTTONS
 }
 
 .about-me {
-    font-size: 1.5vw;
+    font-size: 18px;
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -121,3 +121,29 @@ FRONT PAGE BUTTONS
    ABOUT ME
 ------------------*/
 
+.about-section {
+    text-align: center;
+}
+.about-div {
+   
+}
+.hello {
+   /* display: inline-block; */
+    font-size: 18px;
+    color: white;
+    margin-top: 0%;
+}
+
+.name {
+    /* display: inline-block; */
+    font-size: 58px;
+    color: white;
+    font-weight: bold;
+}
+
+.long-bio {
+    display: inline-block;
+    max-width: 600px;
+    font-size: 22px;
+    color: white;
+}
