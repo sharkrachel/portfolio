@@ -169,10 +169,10 @@ FRONT PAGE BUTTONS
 .portfolio-box {
     height: 200px;
     width: 200px;
-    background-color: #FF1202;
+    background-color: black;
     color: white;
     font-size: 26px;
-    border: 1px solid #FF1202;
+    border: 1px solid black;
     margin-left: 100px;
     margin-top: 40px;
     margin-right: 100px;
@@ -181,7 +181,7 @@ FRONT PAGE BUTTONS
 .portfolio-border {
     height: 160px;
     width: 160px;
-    background-color: #FF1202;
+    background-color: black;
     color: white;
     font-size: 26px;
     border: 3px solid white;
@@ -198,13 +198,13 @@ FRONT PAGE BUTTONS
 }
 
 .portfolio-box:hover {
-    background-color: white;
-    color: #FF1202;
-    border: 1px solid white;
+    background-color: #FF1202;
+    color: white;
+    border: 1px solid #FF1202;
 }
 
 .portfolio-border:hover {
-    background-color: white;
-    color: #FF1202;
-    border: 3px solid #FF1202;
+    background-color: #FF1202;
+    color: white;
+    border: 3px solid white;
 }
