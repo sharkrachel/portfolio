@@ -102,29 +102,34 @@ FRONT PAGE BUTTONS
     padding: 10px;
 }
 
-.contact-me:hover {
+button:hover {
     background-color: #FF1202;
     color: white;
     border: 1px solid #FF1202;
 }
 
-.about-me:hover {
+/* .about-me:hover {
     background-color: #FF1202;
     color: white;
     border: 1px solid #FF1202;
-}
+} */
 
-.contact-me:active {
-    background-color: white;
-    color: black;
+button:active {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+button:focus {
+    background-color: black;
+    color: white;
     border: 1px solid black;
 }
 
-.about-me:active {
+/* .about-me:active {
     background-color: white;
     color: black;
     border: 1px solid black;
-}
+} */
 
 /*-----------------
    ABOUT ME
