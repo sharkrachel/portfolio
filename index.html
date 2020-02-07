@@ -32,8 +32,8 @@
             <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
             <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
             <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
-        </ul>  -->
-        <!-- <header class="header">
+        </ul> -->
+        <header class="header">
             <ul id="slide-out" class="sidenav">
                 <li>
                 <li>
@@ -44,13 +44,13 @@
                     <li>
                         <div class="divider"></div>
                     </li> -->
-        <!-- <div class="background">
+                    <div class="background">
                         <img src="images/office.jpg">
                     </div> -->
-        <!-- <a href="#user"><img class="circle" src="images/yuna.jpg"></a> -->
-        <!-- <a href="#name"><span class="white-text name">Rachel Sipes</span></a>
-                    <a href="#email"><span class="white-text email">rasipes@gmail.com</span></a> -->
-        <!-- </div>
+                    <a href="#user"><img class="circle" src="images/yuna.jpg"></a> -->
+                    <a href="#name"><span class="white-text name">Rachel Sipes</span></a>
+                    <a href="#email"><span class="white-text email">rasipes@gmail.com</span></a>
+                </div>
                 </li>
                 <li><a class="waves-effect" href="#!">Home</a></li>
                 <li><a class="waves-effect" href="#!">About</a></li>
@@ -60,7 +60,7 @@
 
             <a href="#" data-target="slide-out" class="sidenav-trigger right"><i
                     class="medium icon-grey material-icons">dehaze</i></a>
-        </header> -->
+        </header>
         <div id="fullpage">
             <div class="section" id="section0">
                 <div data-anchor="slide0">
@@ -74,8 +74,9 @@
 
 
                             <button class="contact-me">CONTACT ME</button>
-                           <a data-menuanchor="secondPage" href="#secondPage"><button class="about-me">MORE ABOUT ME</button></a>
-                        
+                            <a data-menuanchor="secondPage" href="#secondPage"><button class="about-me">MORE ABOUT
+                                    ME</button></a>
+
                     </div>
 
                 </div>
@@ -83,17 +84,17 @@
 
             <div class="section about-section" id="section1">
                 <div class="about-div">
-                <h2 class="hello">HELLO THERE</h2>
-                <h1 class="name">I AM RACHEL</h1>
-                <div class="divider"></div>
-                <p class="long-bio">Originally from Arizona, my career and drive for adventure has led me to live all
-                    over the world, including England, Hawaii, Florida and Chicago. Currently, I'm going back to
-                    school
-                    for full stack web developement through the University of Arizona. I'm happily living in the
-                    city of
-                    brotherly love (go birds!) with my dog Windermere. On an average day, you can find me at a
-                    brewery,
-                    searching on my Macbook for a missing closing curly bracket.</p>
+                    <h2 class="hello">HELLO THERE</h2>
+                    <h1 class="name">I AM RACHEL</h1>
+                    <p class="long-bio">Originally from Arizona, my career and drive for adventure has led me to live
+                        all
+                        over the world, including England, Hawaii, Florida and Chicago. Currently, I'm going back to
+                        school
+                        for full stack web developement through the University of Arizona. I'm happily living in the
+                        city of
+                        brotherly love (go birds!) with my dog Windermere. On an average day, you can find me at a
+                        brewery,
+                        searching on my Macbook for a missing closing curly bracket.</p>
                 </div>
             </div>
 
@@ -113,9 +114,9 @@
         var myFullpage = new fullpage('#fullpage', {
             sectionsColor: ['white', '#FF1202'],
             anchors: ['firstPage', 'secondPage', '3rdPage'],
-            navigation: true,
+            navigation: false,
             navigationTooltips: ['Home', 'About', 'Portfolio', 'Contact'],
-            // showActiveTooltip: true,
+            showActiveTooltip: true,
             menu: '#menu'
         });
     </script>

@@ -150,6 +150,7 @@ FRONT PAGE BUTTONS
     font-size: 58px;
     color: white;
     font-weight: bold;
+
 }
 
 .long-bio {
@@ -157,4 +158,6 @@ FRONT PAGE BUTTONS
     max-width: 600px;
     font-size: 22px;
     color: white;
+    padding-top: 40px;
+    border-top: 1px solid white;
 }
