@@ -16,7 +16,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:400,600,700,900&display=swap"
+        rel="stylesheet">
+
 
     <!-- Fullpage.js -->
     <link rel="stylesheet" type="text/css" href="assets/fullpage/fullpage.css" />
@@ -69,7 +71,8 @@
                             A web developer <br>
                             based in Philadelphia, <br>
                             Pennsylvania.</pid="short-bio">
-                            <button class="contact-me" id="contact">CONTACT ME</button>
+                            <a data-menuanchor="4thPage" href="#4thPage"><button class="contact-me">CONTACT
+                                    ME</button></a>
                             <a data-menuanchor="secondPage" href="#secondPage"><button class="about-me">MORE ABOUT
                                     ME</button></a>
 
@@ -93,84 +96,139 @@
                 </div>
             </div>
 
-            <div class="section about-section" id="section2">
+            <div class="section portfolio-section" id="section2">
+                <h1 class="portfolio-header">RECENT WORKS</h1>
+                <p class="portfolio-subheader">Here are some of the projects and assignments I have completed so far.
+                </p>
                 <div class="portfolio-div">
                     <div class="row">
                         <div class="col s4">
-                            <a target="_blank" href="https://sharkrachel.github.io/job-search/" > <div class="portfolio-box grow"> 
+                            <div class="portfolio-box grow">
+                                <a target="_blank" href="https://sharkrachel.github.io/job-search/"></a>
                                 <div class="portfolio-border">
                                     <p class="description">Job <br> Search</p>
-                                </div>
-                            </div></a>
+                                </div></a>
+                            </div>
 
                         </div>
                         <div class="col s4">
-                            <a target="_blank" href="https://sharkrachel.github.io/train-schedule/" ><div class="portfolio-box grow"> 
-                                <div class="portfolio-border">
-                                    <p class="description">Train <br> Schedule</p>
-                                </div>
-                           </div> </a> 
+                            <div class="portfolio-box grow">
+                                <a target="_blank" href="https://sharkrachel.github.io/train-schedule/">
+                                    <div class="portfolio-border">
+                                        <p class="description">Train <br> Schedule</p>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
                         <div class="col s4">
-                            <a target="_blank" href="https://sharkrachel.github.io/gif-tastic/"><div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Giphy <br> Search</p>
-                                </div>
-                            </div></a>
+                            <div class="portfolio-box grow">
+                                <a target="_blank" href="https://sharkrachel.github.io/gif-tastic/">
+                                    <div class="portfolio-border">
+                                        <p class="description">Giphy <br> Search</p>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col s4">
-                            <a target= "_blank" href="https://sharkrachel.github.io/TriviaGame/"><div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Timed <br> Quiz</p>
-                                </div>
-                            </div></a>
+                            <div class="portfolio-box grow">
+                                <a target="_blank" href="https://sharkrachel.github.io/TriviaGame/">
+                                    <div class="portfolio-border">
+                                        <p class="description">Timed <br> Quiz</p>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
                         <div class="col s4">
-                        <a target = "_blank" href="https://github.com/sharkrachel/unit-4-game"><div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Random Number <br> Game</p>
-                                </div>
-                            </div></a> 
+                            <div class="portfolio-box grow">
+                                <a target="_blank" href="https://github.com/sharkrachel/unit-4-game">
+                                    <div class="portfolio-border">
+                                        <p class="description">Random Number <br> Game</p>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
                         <div class="col s4">
-                           <a target = "_blank" href="https://github.com/sharkrachel/word-guess-game"> <div class="portfolio-box grow">
-                                <div class="portfolio-border">
-                                    <p class="description">Hangman</p>
-                                </div>
-                            </div></a>
+                            <div class="portfolio-box grow">
+                                <a target="_blank" href="https://github.com/sharkrachel/word-guess-game">
+                                    <div class="portfolio-border">
+                                        <p class="description">Word <br> Guess</p>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
 
             </div>
+
+            <div class="section about-section" id="section3">
+                <h1 class="contact-header">CONTACT ME</h1>
+                <p class="contact-subheader">Reach out for a new project or just say hello</p>
+                <div class="contact-form">
+                    <div class="inside-form">
+                        <h2 class="form-header">SEND ME A MESSAGE</h2>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="first_name" type="text" class="validate">
+                                        <label for="first_name">First Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Last Name</label>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                            <div class="row">
+                                <button class="contact-me submit">SUBMIT</button>
+                            </div>
+                        </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- JQuery and Materialize script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </div>
+    <!-- JQuery and Materialize script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-        <!-- fullpage.js script -->
-        <script src="assets/fullpage/fullpage.js"></script>
+    <!-- fullpage.js script -->
+    <script src="assets/fullpage/fullpage.js"></script>
 
-        <!-- Custom script  -->
-        <script src="assets/script/logic.js"></script>
+    <!-- Custom script  -->
+    <script src="assets/script/logic.js"></script>
 
-        <script type="text/javascript">
-            var myFullpage = new fullpage('#fullpage', {
-                sectionsColor: ['white', '#FF1202'],
-                anchors: ['firstPage', 'secondPage', '3rdPage'],
-                navigation: false,
-                navigationTooltips: ['Home', 'About', 'Portfolio', 'Contact'],
-                showActiveTooltip: true,
-                menu: '#menu'
-            });
-        </script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['white', '#FF1202', 'white', 'white'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+            navigation: true,
+            navigationTooltips: ['Home', 'About', 'Portfolio', 'Contact'],
+            showActiveTooltip: true,
+            menu: '#menu'
+        });
+    </script>
 </body>
 
 </html>
