@@ -76,6 +76,16 @@ div.slide-up p {
     font-weight: 900px;
 }
 
+.contact-info {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+img, .contact-info{
+    height: 20px;
+    width: 20px;
+}
+
 /* ----------------
 FRONT PAGE BUTTONS
 ------------------*/
