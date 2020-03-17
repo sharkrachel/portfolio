@@ -344,15 +344,15 @@ CONTACT PAGE
           max-width: 800px;
       }
 
-        .portfolio-box {
+        /* .portfolio-box {
             height: 160px;
             width: 160px;
             background-color: black;
             color: white;
             font-size: 20px;
-            border: 1px solid black;
+            border: 1px solid black; */
             /* margin-left: 100px; */
-            margin-top: 40px;
+            /* margin-top: 40px;
             margin-right: 100px;
             text-align: center;
             vertical-align: center;
@@ -367,7 +367,7 @@ CONTACT PAGE
             border: 3px solid white;
             position: fixed;
             margin: 20px;
-        }
+        } */
 
         #short-bio{
             position: absolute;
@@ -417,15 +417,15 @@ CONTACT PAGE
             max-width: 680px;
         }
 
-        .portfolio-box {
+        /* .portfolio-box {
             height: 140px;
             width: 140px;
             background-color: black;
             color: white;
             font-size: 16px;
-            border: 1px solid black;
+            border: 1px solid black; */
             /* margin-left: 100px; */
-            margin-top: 10px 40px;
+            /* margin-top: 10px 40px;
             margin-right: 100px;
             text-align: center;
             vertical-align: center;
@@ -440,7 +440,7 @@ CONTACT PAGE
             border: 3px solid white;
             position: fixed;
             margin: 20px;
-        }
+        } */
 
         .portfolio-header-div {
             max-width: 780px;
@@ -463,7 +463,7 @@ CONTACT PAGE
     }
 
     @media screen and (max-width: 768px) {
-        .portfolio-div {
+        /* .portfolio-div {
             max-width: 640px;
         }
 
@@ -490,7 +490,7 @@ CONTACT PAGE
             border: 3px solid white;
             position: fixed;
             margin: 20px;
-        }
+        } */
 
         .portfolio-header-div {
             max-width: 780px;
